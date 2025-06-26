@@ -7,7 +7,7 @@ export interface CollabVMProtocolMessage {
 }
 
 export enum CollabVMProtocolMessageType {
-    // JPEG Dirty Rectangle
-    rect = 0,
+    // h264 Beautiful Rectangle
+    frame = 0,
     audioOpus = 1, // OPUS Audio Message Type
 }
